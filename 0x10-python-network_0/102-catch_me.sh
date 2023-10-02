@@ -1,3 +1,3 @@
 #!/bin/bash
-#makes a request to 0.0.0.0:5000/catch_me
-curl -s 0.0.0.0:5000/catch_me -w 'You got me!' -o /dev/null
+# Maks_a_request to 0.0.0.0:5000/catch_me that_gets_message.
+curl -sL -X PUT -H "Origin: HolbertonSchool" -d "user_id=98" 0.0.0.0:5000/catch_me
